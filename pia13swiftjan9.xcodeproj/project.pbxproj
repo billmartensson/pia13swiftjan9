@@ -6,20 +6,76 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E8F185EB2D2FBECE008C999D /* pia13swiftjan9watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E8F185DE2D2FBECC008C999D /* pia13swiftjan9watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8F185E92D2FBECE008C999D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8F185C12D2FBD40008C999D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8F185DD2D2FBECC008C999D;
+			remoteInfo = "pia13swiftjan9watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8F185EF2D2FBECE008C999D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E8F185EB2D2FBECE008C999D /* pia13swiftjan9watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		E8F185C92D2FBD41008C999D /* pia13swiftjan9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pia13swiftjan9.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F185DE2D2FBECC008C999D /* pia13swiftjan9watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pia13swiftjan9watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E8F185F32D2FC5B5008C999D /* Exceptions for "pia13swiftjan9" folder in "pia13swiftjan9watch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				FancyBoxView.swift,
+				FancyCode.swift,
+				FancyGalleryView.swift,
+			);
+			target = E8F185DD2D2FBECC008C999D /* pia13swiftjan9watch Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E8F185CB2D2FBD41008C999D /* pia13swiftjan9 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E8F185F32D2FC5B5008C999D /* Exceptions for "pia13swiftjan9" folder in "pia13swiftjan9watch Watch App" target */,
+			);
 			path = pia13swiftjan9;
+			sourceTree = "<group>";
+		};
+		E8F185DF2D2FBECC008C999D /* pia13swiftjan9watch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "pia13swiftjan9watch Watch App";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E8F185C62D2FBD40008C999D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F185DB2D2FBECC008C999D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				E8F185CB2D2FBD41008C999D /* pia13swiftjan9 */,
+				E8F185DF2D2FBECC008C999D /* pia13swiftjan9watch Watch App */,
 				E8F185CA2D2FBD41008C999D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				E8F185C92D2FBD41008C999D /* pia13swiftjan9.app */,
+				E8F185DE2D2FBECC008C999D /* pia13swiftjan9watch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,10 +113,12 @@
 				E8F185C52D2FBD40008C999D /* Sources */,
 				E8F185C62D2FBD40008C999D /* Frameworks */,
 				E8F185C72D2FBD40008C999D /* Resources */,
+				E8F185EF2D2FBECE008C999D /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E8F185EA2D2FBECE008C999D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				E8F185CB2D2FBD41008C999D /* pia13swiftjan9 */,
@@ -68,6 +128,28 @@
 			);
 			productName = pia13swiftjan9;
 			productReference = E8F185C92D2FBD41008C999D /* pia13swiftjan9.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8F185DD2D2FBECC008C999D /* pia13swiftjan9watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F185EC2D2FBECE008C999D /* Build configuration list for PBXNativeTarget "pia13swiftjan9watch Watch App" */;
+			buildPhases = (
+				E8F185DA2D2FBECC008C999D /* Sources */,
+				E8F185DB2D2FBECC008C999D /* Frameworks */,
+				E8F185DC2D2FBECC008C999D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E8F185DF2D2FBECC008C999D /* pia13swiftjan9watch Watch App */,
+			);
+			name = "pia13swiftjan9watch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "pia13swiftjan9watch Watch App";
+			productReference = E8F185DE2D2FBECC008C999D /* pia13swiftjan9watch Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -81,6 +163,9 @@
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					E8F185C82D2FBD40008C999D = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					E8F185DD2D2FBECC008C999D = {
 						CreatedOnToolsVersion = 16.1;
 					};
 				};
@@ -100,12 +185,20 @@
 			projectRoot = "";
 			targets = (
 				E8F185C82D2FBD40008C999D /* pia13swiftjan9 */,
+				E8F185DD2D2FBECC008C999D /* pia13swiftjan9watch Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E8F185C72D2FBD40008C999D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F185DC2D2FBECC008C999D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +215,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E8F185DA2D2FBECC008C999D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8F185EA2D2FBECE008C999D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8F185DD2D2FBECC008C999D /* pia13swiftjan9watch Watch App */;
+			targetProxy = E8F185E92D2FBECE008C999D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E8F185D52D2FBD43008C999D /* Debug */ = {
@@ -249,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pia13swiftjan9/pia13swiftjan9.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pia13swiftjan9/Preview Content\"";
@@ -278,6 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pia13swiftjan9/pia13swiftjan9.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pia13swiftjan9/Preview Content\"";
@@ -302,6 +412,66 @@
 			};
 			name = Release;
 		};
+		E8F185ED2D2FBECE008C999D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pia13swiftjan9watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = pia13swiftjan9watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = se.magictechnology.pia13swiftjan9;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.pia13swiftjan9.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		E8F185EE2D2FBECE008C999D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pia13swiftjan9watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = pia13swiftjan9watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = se.magictechnology.pia13swiftjan9;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.pia13swiftjan9.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +489,15 @@
 			buildConfigurations = (
 				E8F185D82D2FBD43008C999D /* Debug */,
 				E8F185D92D2FBD43008C999D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F185EC2D2FBECE008C999D /* Build configuration list for PBXNativeTarget "pia13swiftjan9watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F185ED2D2FBECE008C999D /* Debug */,
+				E8F185EE2D2FBECE008C999D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
